@@ -1,0 +1,287 @@
+/*__________________________________________________________*/
+/*All pages*/
+
+body{
+	background-color: black;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+span.italics{
+	font-style:italic;
+}
+
+#wrapper{
+	width:1024px;
+	margin:auto;
+	/*background-color: red;*/ /*make the div visible*/
+}
+
+.content{
+	float: right;
+	width:712px;
+	background-color: white;
+	border-radius: 7px;
+	padding: 0 19px;
+}
+
+header.pagespec{
+	width:712px;
+}
+
+header.pagespec img{
+	float:left;
+	margin-right: 15px;
+}
+
+article.game{
+	height:200px;
+	padding: 10px 0;
+	border-bottom-style: double;
+}
+
+article.music{
+	height:140px;
+	padding: 10px 0;
+	border-bottom-style: double;
+}
+
+article.music audio{
+	margin-top:15px;
+}
+
+article.writing{
+	height:100px;
+	padding: 10px 0;
+	border-bottom-style: double;
+}
+
+article.writing img{
+	max-width: 300px;
+	max-height: 100px;
+}
+
+article.writing img.pdf{
+	margin-top:30px;
+}
+
+article.demos{
+	height:100px;
+	padding: 10px 0;
+	border-bottom-style: double;
+}
+
+article.demos img{
+	max-width: 300px;
+	max-height: 100px;
+}
+
+article.videos{
+	/*height:250px;*/
+	padding: 10px 0;
+	border-bottom-style: double;
+}
+
+section.work{
+	width: 300px;
+	margin-right: 15px;
+	float: left;
+	text-align: center;
+}
+
+section.desc{
+	width: 397px;
+	float: right;
+}
+
+section.desc h3{
+	margin:0 auto;
+}
+
+img.work{
+	max-width: 300px ;
+	max-height: 200px;
+	margin-top:15px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color:black;
+}
+
+/*a:click{
+	font-color
+}*/
+
+/*__________________________________________________________*/
+/*frame_nav.php*/
+
+nav{
+	float:left;
+	width:75px;
+	background-color: white;
+	border-radius: 7px;
+}
+
+nav section{
+	text-align: center;
+	width:75px;
+	height:75px;
+	margin:2px auto;
+}
+
+nav img{
+	max-width:50px;
+	max-height:50px;
+	border-radius: 1px;
+}
+
+/*__________________________________________________________*/
+/*frame_sidebar.php*/
+
+aside{
+	float: right;
+	width: 200px;
+	background-color: white;
+	border-radius: 7px;
+	margin-left: 7px;
+	margin-right: -15px;
+	text-align: center;
+}
+
+aside h1{
+	text-decoration: underline;
+}
+
+/*__________________________________________________________*/
+/*frame_top.php*/
+
+
+
+/*__________________________________________________________*/
+/*frame_bottom.php*/
+
+footer{
+	clear:both;
+}
+
+footer p{
+	color:white;
+	text-align:center;
+}
+
+/*__________________________________________________________*/
+/*frame_header.php*/
+
+header{
+	width:1024px;
+	height:115px;
+	background-color: white;
+	text-align: left;
+	border-radius: 7px;
+	margin-bottom: 4px;
+	padding-left: 15px;
+	border-bottom-style:solid;
+}
+
+header h2{
+	padding-top: 78px;
+}
+
+header a:link{
+	color:black;
+}
+
+header a:visited{
+	color:black;
+}
+
+header a:hover{
+	color:black;
+}
+
+header a:active{
+	color:black;
+}
+
+/*__________________________________________________________*/
+/*index.php*/
+
+div#home{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align:center;
+	background-color: white;
+	border-radius: 7px;
+	position:relative;
+}
+
+#home img{
+	max-width:200px;
+	max-height:200px;
+}
+
+#home section{
+	/*background-color: red;*/ /*make the div visible*/
+	display: inline-block;
+	width:200px;
+	height:200px;
+	position:relative;
+}
+
+#home p{
+	text-align: center;
+}
+
+.leftColumn{
+	margin-right:75px;
+}
+
+.rightColumn{
+	margin-left:75px;
+}
+
+#home section#music{
+	position: relative;
+	top:-75px;
+}
+
+#home section#videos{
+	position: relative;
+	bottom:-75px;
+}
+
+/*__________________________________________________________
+/*soon.php*/
+
+article.soon{
+	width:1024px;
+	margin:auto;
+	margin-top:100px;
+}
+
+p.soon{
+	text-align: center;
+	color:white;
+
+}
+
+/*__________________________________________________________*/
+/*about_me.php*/
+
+/*#about_me section{
+	
+}*/
+
+#about_me img{
+	max-width: 250px;
+	max-height: 300px;
+	float:left;
+	margin-right: 15px;
+}

@@ -1,3 +1,3 @@
 Portfolio Website
 
-Make for Parsons MFADT Bootcamp 2012
+Made for Parsons MFADT Bootcamp 2012.
